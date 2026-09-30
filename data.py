@@ -12,11 +12,9 @@ elif temp == 70:
 else:
     print('coldcoldcold') """
 
-odd_or_even = input("type a number")
-def x(odd_or_even):
-    if odd_or_even == "1":
-        print("odd")
-    if odd_or_even == x + 2:
-     print("odd")
-    if odd_or_even == x + 1:
-        print("even")
+#use max/min for smaller and bigger number
+#also can use "and" to check both at the same time
+#check for "i"
+
+user = input("type anything")
+
