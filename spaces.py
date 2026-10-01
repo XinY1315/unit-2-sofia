@@ -1,10 +1,9 @@
 def spaces(N, y, t):
+    occupied = 0
     for i in range(N):
-        N = 5
+        #len can be used in place of n in case n is not given
         y[i] and t[i]
-        y[i] == ["C", "C", ".", ".", "C"]
-        t[i] == [".", "C", "C", ".", "."]
         if y[i] == "C" and t[i] == "C":
-            print(N-1)
-        else:
-            print(N)
+            occupied+=1
+    return occupied
+print(spaces(5, "CC..C", ".CC.."))
