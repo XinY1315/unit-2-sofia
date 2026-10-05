@@ -25,4 +25,12 @@ def sentence(N, x):
         x[i]
         if x[i] == " ":
             words += 1
+    return words 
+
+odd_or_even = input("type a number")
+if odd_or_even == [x % 2 = 1]:
+        print("odd")
+if odd_or_even == [x % 2 = 0]:
+        print("even")
+def x(N):
 
