@@ -18,19 +18,22 @@ else:
 
 #must write full expression or you fail
 
-user = input("Write a sentence.")
+""" user = input("Write a sentence.")
 def sentence(N, x):
     words = 0
     for i in range(N):
         x[i]
         if x[i] == " ":
             words += 1
-    return words 
+    return words  """
 
-odd_or_even = input("type a number")
-if odd_or_even == [x % 2 = 1]:
+def odd_or_even(number):
+    if number%2 == 1:
         print("odd")
-if odd_or_even == [x % 2 = 0]:
+    else:
         print("even")
-def x(N):
 
+number = input("type a number")
+
+def bill_and_tip(money):
+    if money
