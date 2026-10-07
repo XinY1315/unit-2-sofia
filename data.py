@@ -27,13 +27,25 @@ def sentence(N, x):
             words += 1
     return words  """
 
-def odd_or_even(number):
+"""def odd_or_even(number):
     if number%2 == 1:
         print("odd")
     else:
         print("even")
 
-number = input("type a number")
+number = input("type a number") """
 
-def bill_and_tip(money):
-    if money
+#TEST DAY INDEX CARD can have a loop example, example function, notes
+def total(service, tip):
+    total == bill*service
+    if service == "bad":
+        tip_percentage = 0
+    elif service == "okay":
+        tip_percentage = 0.15
+    elif service == "good":
+        tip_percentage = 0.2
+    else:
+        tip_percentage = 0.25
+    bill = input("How much was the bill?")
+
+service = input("How was the service?")
