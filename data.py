@@ -36,8 +36,7 @@ def sentence(N, x):
 number = input("type a number") """
 
 #TEST DAY INDEX CARD can have a loop example, example function, notes
-def total(service, tip):
-    total == bill*service
+def total(service, bill):
     if service == "bad":
         tip_percentage = 0
     elif service == "okay":
@@ -46,6 +45,10 @@ def total(service, tip):
         tip_percentage = 0.2
     else:
         tip_percentage = 0.25
-    bill = input("How much was the bill?")
-
+    tip = int(bill*tip_percentage)
+    total_amount = (bill+tip)
+    print(tip)
+    print(total_amount)
+bill = float(input("How much is the bill?"))
 service = input("How was the service?")
+total(bill, service)
